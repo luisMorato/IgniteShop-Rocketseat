@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "defaultBackground": "#121214",        
+        "grayBase": "#202024",
+        "brand": "#00875F",
+        "lightGreen": "#1EA483",
+        "lightPurple": "#7465D4"
       },
+      boxShadow: {
+        'cardShadow': '0 0 60px 0px rgba(0, 0, 0, 0.2)',
+      }
     },
   },
   plugins: [],
